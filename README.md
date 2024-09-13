@@ -25,6 +25,8 @@ The goal of this project is to predict restaurant review ratings (1-5 stars) bas
 ## 🛠 Skills
 Machine Learning, Deep Learning , NLP 
 
+## NOTE
+Before you clone this repo make sure you run the ipynb  file and after getting the trained files then  clone the repo and place the trained  files in bert_sentiment_model folder 
 
 ## Installation
   
@@ -55,13 +57,13 @@ Machine Learning, Deep Learning , NLP
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/AICraftAlchemy/Restaurent-Reviews-Ratings
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd Restaurent-Reviews-Ratings
 ```
 
 Install dependencies
