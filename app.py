@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Load the trained model and tokenizer
 loaded_model = BertForSequenceClassification.from_pretrained('bert_sentiment_model')
-loaded_tokenizer = BertTokenizer.from_pretrained('bert_sentiment_model')
+loaded_tokenizer = BertTokenizer.from_pretrained('bert_sentiment_model') 
 
 @app.route('/')
 def home():
